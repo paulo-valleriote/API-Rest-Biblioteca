@@ -103,4 +103,4 @@ cUrl: `curl --request PATCH \
 Este endpoint vai remover um livro do sistema através do `ID` especifícado.
 
 cUrl: `curl --request DELETE \
-  --url http://localhost:3000/livros/2`
+  --url http://localhost:3000/livros/id`
