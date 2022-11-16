@@ -31,8 +31,8 @@ Esse projeto foi feito usando a versão `v18.12.1` do Node.js
 
 ## Testando a aplicação
 
-#### Buscar todos os alunos
-##### GET /livros
+### Buscar todos os alunos
+#### GET /livros
 Este endpoint vai retornar um objeto com `todos` os livros cadastrados.
 
 cUrl: `curl --request GET \
@@ -40,8 +40,8 @@ cUrl: `curl --request GET \
 
   ---
 
-#### Encontrar um livro específico
-##### GET /livros/:id
+### Encontrar um livro específico
+#### GET /livros/:id
 Este endpoint vai retornar um objeto do livro desejado através do `ID` passado como parâmetro
 
 cUrl: `curl --request GET \
@@ -49,8 +49,8 @@ cUrl: `curl --request GET \
 
   ---
 
-#### Adicionar um novo livro
-##### POST /livros
+### Adicionar um novo livro
+#### POST /livros
 Este endpoint vai cadastrar um novo livro no sistema
 
 cUrl: `curl --request POST \
@@ -65,8 +65,8 @@ cUrl: `curl --request POST \
 
 ---
 
-#### Substituir um livro
-##### Put /livros/:id
+### Substituir um livro
+#### Put /livros/:id
 Este endpoint vai substituir todas as informação de um livro especificado pelo `ID`
 - As informações são `obrigatórias`, caso queira atualizar uma ou mais use o `PATCH`
 
@@ -81,8 +81,8 @@ cUrl: `curl --request PUT \
 
 ---
 
-#### Atualizar as informações de um livro
-##### Patch /livros/:id
+### Atualizar as informações de um livro
+#### Patch /livros/:id
 Este endpoint vai atualizar uma ou mais informações de um livro especificado pelo `ID`
 - É `obrigatório` atualizar apenas uma informação, as restantes são opcionais
 
@@ -98,8 +98,8 @@ cUrl: `curl --request PATCH \
 
 ---
 
-#### Remover um livro
-##### Delete /livros/:id
+### Remover um livro
+#### Delete /livros/:id
 Este endpoint vai remover um livro do sistema através do `ID` especifícado.
 
 cUrl: `curl --request DELETE \
